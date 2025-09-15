@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(235, 234, 234);
+}
+
+.card-container {
+  border: 1px solid;
+  border-radius: 1rem;
+  border-color: white;
+  position: relative;
+  width: 25rem;
+  height: 15rem;
+  margin: 1rem;
+  background-color: white;
+  box-shadow: 2px 3px 10px 1px gray;
+}
+
+.card-header {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 1.5rem;
+  padding: 0px;
+}
+hr {
+  background: rgb(226, 226, 226);
+  height: 0.1px;
+  border: 0;
+}
+
+.card-body {
+  margin: 2rem 2rem 1.5rem 1.5rem;
+}
+
+.card-footer {
+  font-size: 14px;
+  margin: 1.5rem;
+  padding: 0px;
+}
+
+.little-border {
+  border: 1px;
+  border-radius: 1rem;
+
+  background: rgb(241, 241, 241);
+  border-width: 15%;
+  padding: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 10px;
+}
