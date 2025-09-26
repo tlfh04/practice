@@ -114,7 +114,7 @@ const getUserTodo = async (num) => {
   const res = await axios.get(`${BASE_URL}/todos/user/${num}`);
   console.log(res["data"]);
 };
-//getUserTodo(9);
+//getUserTodo(5);
 /* 출력 결과
 [
   {
@@ -145,7 +145,7 @@ const getComment = async () => {
   });
   console.log(arr);
 };
-getComment();
+//getComment();
 /* 출력 결과
 [
   {
