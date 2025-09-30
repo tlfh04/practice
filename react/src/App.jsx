@@ -1,13 +1,13 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import Parent from "./component/PropsChildren/Parent";
+import Main from "./component/Main";
 
 function App() {
   return (
-    <div>
-      <Parent></Parent>
-    </div>
+    <>
+      <Main></Main>
+    </>
   );
 }
 
