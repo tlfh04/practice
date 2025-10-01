@@ -5,13 +5,12 @@ import Carts from "./Carts/Carts";
 import Counter from "./Counter/Counter";
 import Calculator from "./Calculator/Calculator";
 import QuoteContainer from "./DummyJSON/QuoteContainer";
+import Form from "./Signup/Form";
 
 export default function Main() {
   return (
     <div>
-      <Counter></Counter>
-      <Calculator></Calculator>
-      <QuoteContainer></QuoteContainer>
+      <Form />
     </div>
   );
 }

@@ -10,10 +10,6 @@ import ArrayState from "./component/State/ArrayState";
 function App() {
   return (
     <>
-      <StringState></StringState>
-      <NumberState />
-      <ObjectState></ObjectState>
-      <ArrayState></ArrayState>
       <Main></Main>
     </>
   );
