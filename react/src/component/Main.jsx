@@ -1,9 +1,8 @@
-import RecipeContainer from "./Recipe/RecipeContainer";
-import ProductContainer from "./ProductSort/ProductContainer";
+import MovieSearch from "./TMDB/MovieSearch";
 export default function Main() {
   return (
     <div>
-      <ProductContainer />
+      <MovieSearch></MovieSearch>
     </div>
   );
 }
